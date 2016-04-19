@@ -51,11 +51,12 @@
         </nav>
 		<div class="shop-content">
 		  <div class="shop-content-left">
-            <div class="manufacturers">
-              <h2>Производители</h2>
-              <form>
-	            <input type="checkbox" name="baxter" id="baxter-of-california" checked>
-	            <label for="baxter-of-california">Baxter of California</label>
+		    <form action="#" method="get" name="shop-catalog-form">
+              <div class="manufacturers">
+                <h2>Производители</h2>
+              
+	              <input type="checkbox" name="baxter" id="baxter-of-california" checked>
+	              <label for="baxter-of-california">Baxter of California</label>
 	   
 	            <input type="checkbox" name="natty" id="mr-natty">
 	            <label for="mr-natty">Mr Natty</label>
@@ -71,21 +72,22 @@
 	   
 	            <input type="checkbox" name="american-crew" id="american-crew" checked>
 	            <label for="american-crew">American Crew</label>
-              </form>
-            </div>	
-            <div class="item-groups">
-			  <h2>Группы товаров:</h2>
-              <form>	          
+             
+              </div>	
+              <div class="item-groups">
+			    <h2>Группы товаров:</h2>
+             	          
 	            <input type="radio" name="group-of-goods" value="for-shaving" id="for-shaving">
 	            <label for="for-shaving">Бритвенные принадлежности</label>
 	   
-	            <input type="radio" name="group-of-goods" value="for-care" id="for-care">
+	            <input type="radio" name="group-of-goods" value="for-care" id="for-care" checked>
 	            <label for="for-care">Средства для ухода</label>
 	   
 	            <input type="radio" name="group-of-goods" value="accessories" id="accessories">
-	            <label for="accessories">Аксессуары</label>
-	          </form>
-            </div>
+	            <label for="accessories">Аксессуары</label>   
+              </div>
+			  <button class="shop-catalog-button">Показать</button>
+			</form>
           </div>
 		  <div class="shop-content-right">
             <div class="items">
@@ -138,7 +140,7 @@
 	            <img src="placeholders/220x165.png" width="220" height="165" alt="Baxter of California Shaving Set">
 	            <p class="item-label">Набор для бриться<br>"Baxter of California"</p>
 	            <div class="item-price-buy">
-	              <span class="item-price">3900 руб.
+	              <span class="item-price">3900 руб.</span>
 	              <a href="#" class="item-buy">Купить</a>
 	            </div>
 	          </article>
