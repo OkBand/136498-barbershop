@@ -16,3 +16,14 @@ h2 {
 	font-size: 30px;
 	line-height: 42px;
 }
+
+.item-category {
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: none;
+}
+
+.item-title {
+	font-size: 14px;
+	line-height: 18px;
+}
