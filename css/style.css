@@ -88,9 +88,10 @@ body {
 	min-height: 330px;
 }
 
-.gallery-content img {
+.gallery-content {
 	display: block;
 	margin: 0;
+	padding: 0;
 }
 
 .shop-header {
@@ -104,6 +105,7 @@ body {
 	outline: 1px dashed red;
 	margin: 0;
 	padding: -10px;
+	min-height: 680px;
 }
 
 .shop-content-left {
@@ -125,6 +127,7 @@ body {
 	font-size: 0;
 	outline: 1px dashed blue;
 	padding: 0;
+	padding-bottom: 25px;
 }
 
 .item {
@@ -162,7 +165,8 @@ body {
 	display: inline-block;
 	outline: 1px dashed black;
 	margin-right: 20px;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	vertical-align:bottom;
 }
 
 .item-content-left img:nth-child(1) {
