@@ -517,8 +517,8 @@ h3 {
 .shop-form input[type="radio"]:checked + label::after{
 	content: "";
 	position: absolute;
-	top: 5.5px;
-	left: 5.5px;
+	top: 10px;
+	left: 10px;
 	width: 8px;
 	height: 8px;
 	background-color: #000000;
