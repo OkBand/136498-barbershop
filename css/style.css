@@ -225,7 +225,7 @@ h3 {
 	padding: 50px 80px;
 	color: #000000;
 	background: url("../img/index-content-shadow.png") no-repeat center, 
-	#f8f5f2 url("../img/background-texture.gif");
+	#f8f5f2 url("../img/background-texture-light.gif");
  
 }
 
@@ -429,7 +429,7 @@ h3 {
 }
 
 .shop {
-	background: #f8f5f2 url("../img/background-texture.gif");
+	background: #f8f5f2 url("../img/background-texture-light.gif");
 }
 
 
