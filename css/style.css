@@ -10,6 +10,11 @@ body {
 	padding: 0;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 h1 {
 	font-size: 30px;
 	line-height: 42px;
@@ -61,6 +66,12 @@ h3 {
 	padding-top: 22px;
 	padding-right: 20px;
 	vertical-align: top;
+}
+
+.logo-small a {
+	background: 000000;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .main-navigation {
@@ -559,7 +570,7 @@ h3 {
 	box-shadow: 0 0 15px 0 rgba(0, 1, 1, 0.2);
 }
 
-.item:nth-child(3) {
+.item:nth-child(3n) {
 	margin-right: 0;
 }
 
