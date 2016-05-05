@@ -113,13 +113,23 @@ h3 {
 	background: #242424;
 }
 
-.main-navigation .current{
-	display: block;
-	width: 56px;
-	padding: 25px 0;
-	margin: 0 20px;
-	color: #ffffff;
-	border-bottom: 4px solid #FFFFFF;
+.main-navigation .current {
+	position: relative;
+	background-color: none;
+}
+
+.main-navigation .current::after{
+	content: "";
+	position: absolute;
+	right: 20px;
+	bottom: 0;
+	left: 20px;
+	height: 4px;
+	background-color: #ffffff;
+}
+
+.main-navigation .current a:hover {
+	background: none;
 }
 
 .user-block {
@@ -485,6 +495,7 @@ h3 {
 	display: inline-block;
 	padding-left: 43px;
 	vertical-align: middle;
+	text-align: left;
 	font-size: 14px;
 	line-height: 18px;
 	cursor: pointer;
@@ -516,8 +527,8 @@ h3 {
 .shop-form input[type="radio"] + label::before {
 	content: "";
 	position: absolute;
-	top: 4px;
-	left: 4px;
+	top: 2px;
+	left: 0px;
 	width: 16px;
 	height: 16px;
 	border: 2px solid #000000;
@@ -528,16 +539,16 @@ h3 {
 .shop-form input[type="radio"]:checked + label::after{
 	content: "";
 	position: absolute;
-	top: 10px;
-	left: 10px;
+	top: 7.5px;
+	left: 6.5px;
 	width: 8px;
 	height: 8px;
 	background-color: #000000;
 	border-radius: 4px;
 }
 
-.shop-form button {
-	padding-left: 25px;
+.shop-form .btn {
+	min-width: 115px;
 }
 
 .shop-content-right {
@@ -720,14 +731,15 @@ h3 {
 }
 
 .item-description {
-	margin-bottom: 38px;
+	margin-bottom: 37px;
 }
 
-.item-price-buy-unit {
+.item-content-right .item-price-buy{
 	margin: 0;
-	margin-bottom: 62px;
+	margin-bottom: 64px;
 	padding: 0;
 }
+
 
 .item-spec ul {
 	margin: 0;
