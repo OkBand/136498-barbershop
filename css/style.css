@@ -622,6 +622,10 @@ h3 {
 	font-size: 0;
 }
 
+.item .item-price-buy {
+	background-color: #ffffff;
+}
+
 .item-price {
 	display: inline-block;
 	margin: 0;
